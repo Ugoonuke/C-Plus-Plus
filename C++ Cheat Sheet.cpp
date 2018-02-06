@@ -334,7 +334,7 @@ int main()
 	cout<<endl;
 
 	// Abstract Data Type
-  cout<<"Abstract Data Types"<<endl;
+  	cout<<"Abstract Data Types"<<endl;
 	Car* stationWagon = new StationWagon();
 	stationWagon->getNumWheels();
 	cout<<endl;
@@ -472,8 +472,8 @@ int main()
 	cout<<endl;
 
 	// Random Stuff
-  cout<<"Random Stuff"<<endl;
-  num--;
+  	cout<<"Random Stuff"<<endl;
+  	num--;
 	smallest += largest;
 	largest += smallest;
 	if(c<'k') cout<<"C"<<endl;
